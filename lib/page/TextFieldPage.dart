@@ -4,7 +4,7 @@ class TextFieldPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
 
-    final TextEditingController _inpuController = TextEditingController();
+    // final TextEditingController _inpuController = TextEditingController();
 
     return Scaffold(
       appBar: AppBar(title: Text('输入框和表单')),

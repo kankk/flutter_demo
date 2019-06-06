@@ -17,6 +17,9 @@ import 'package:flutter_demo/page/ListViewPage.dart';
 import 'package:flutter_demo/page/CustomScrollViewWidget.dart';
 import 'package:flutter_demo/page/GridViewPage.dart';
 import 'package:flutter_demo/page/PageViewPage.dart';
+import 'package:flutter_demo/page/MethodChannelPage.dart';
+import 'package:flutter_demo/page/EventChannelPage.dart';
+import 'package:flutter_demo/page/BlocPage.dart';
 
 void main() => runApp(MyApp());
 
@@ -48,7 +51,10 @@ class MyApp extends StatelessWidget {
         '/Page14': (context) => ListViewPage(),
         '/Page15': (context) => CustomScrollViewWidget(),
         '/Page16': (context) => GridViewPage(),
-        '/Page17': (context) => PageViewPage()
+        '/Page17': (context) => PageViewPage(),
+        '/Page18': (context) => MethodChannelPage(),
+        '/Page19': (context) => EventChannelPage(),
+        '/Page20': (context) => BlocPage()
       }
     );
   }
@@ -84,6 +90,9 @@ class _MyHomePageState extends State<MyHomePage> {
     '第32节 -- CustomScrollView',
     '第33节 -- GridView',
     '第34节 -- PageView',
+    '第45节 -- PlatformChannel -- MethodChannel',
+    '第45节 -- PlatformChannel -- EventChannel',
+    '第52节 -- BLoC Demo',
   ];
 
   @override
